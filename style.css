@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+main{
+    display:flex;
+    background-color: white; 
+}
+header{
+    color:white;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    font-size: 40px;
+}
+ 
+h1{
+    color: rgba(255, 234, 47, 0.952);
+    background-color: white; 
+    margin: 1% 1% 1% 1%;        /* margin H=1 D=1 B=1 G=1 */
+}
+p{
+    margin: 1% 1% 1% 1%;        /* margin H=1 D=1 B=1 G=1 */
+    text-align: justify; 
+}
+
+nav{
+    color:white;
+    background-color: rgb(0, 183, 255);
+    border: 1px solid black;
+    text-align: center; 
+    padding: 0 5%;
+    margin: 1% 0% 85% 1%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color:white;
+    background-color: rgb(0, 183, 255);    
+}
+
+aside{
+    color:white;
+    background-color: rgb(0, 183, 255);
+    border: 1px solid black;
+    padding: 0 20px;
+    margin: 1% 1% 60% 1%;       /* margin H=1 D=1 B=60 G=1 */
+    min-width: 200px;
+    text-align: justify; 
+}
+figure{
+    margin-top: 5%;
+    text-align: center;   
+}
+figcaption{
+    /* padding: 0 50%; */
+    /* width: 150px; */
+    text-align: center;
+    font-size: 22px;
+}
+
+footer{
+    color:white;
+    background-color: rgba(0, 68, 255, 0.822);
+    text-align: center; 
+    font-size: 25px;
+}
+
+#wrapper {
+    padding: 0 15% 0 15%;   /* padding = H=0 D=15 B=0 G=15*/
+    background-color: rgba(255, 238, 0, 0.603);    
+}
+
+/* On est obligé de mettre img derrière img_header pour bien spécifier que l'on parle de l'image img de l'id img_header */
+#img-header img {
+    width: 100%;
+}
+
+#titrehaut{
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+}
+
+/* .nav-link {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+} */
